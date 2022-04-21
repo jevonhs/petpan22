@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('databarangdosen');
+    return view('/login');
 });
 
-Route::get('dashoard/fpinjam', function () {
-    return view('fpinjam');
+Route::post('/dosen/dashboard/', function () {
+    return view('/dosen/dashboard');
 });
