@@ -17,6 +17,27 @@ Route::get('/', function () {
     return view('/login');
 });
 
-Route::post('/dosen/dashboard/', function () {
-    return view('/dosen/dashboard');
+Route::get('/dashboard', function () {
+    return view('dosen/dashboard');
+});
+Route::get('/dashboard', function () {
+    return view('admin/dashboardadmin');
+});
+
+Route::get('/booking', function () {
+    return view('dosen/fpinjamdosen');
+});
+Route::get('/buatnotif', function () {
+    return view('admin/buatnotifadmin');
+});
+
+Route::get('/barang', function () {
+    return view('dosen/databarangdosen');
+});
+Route::get('/barang', function () {
+    return view('admin/databarangadmin');
+});
+
+Route::get('/riwayat', function () {
+    return view('dosen/rpinjamdosen');
 });

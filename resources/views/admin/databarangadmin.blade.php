@@ -42,7 +42,7 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="index3.html" class="nav-link">Home</a>
+        <a href="/admin/dashboardadmin" class="nav-link">Home</a>
       </li>
     </ul>
     <ul class="navbar-nav ml-auto">
@@ -87,7 +87,7 @@
             </a>
 </li>
           <li class="nav-item">
-            <a href="pages/widgets.html" class="nav-link active">
+            <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Data Barang
@@ -95,7 +95,7 @@
             </a>
 </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="/buatnotif" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
               <p>
                 Buat Notifikasi
@@ -103,7 +103,7 @@
             </a>
 </li>
             <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="/peminjam" class="nav-link">
             <i class="nav-icon fas fa-user"></i>
             <p>
                 Data Peminjam
@@ -111,7 +111,7 @@
             </a>
 </li>
             <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="/laporan" class="nav-link">
             <i class="nav-icon fas fa-table"></i>
             <p>
                 Laporan Pengembalian.
