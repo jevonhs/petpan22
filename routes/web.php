@@ -41,3 +41,6 @@ Route::get('/barang', function () {
 Route::get('/riwayat', function () {
     return view('dosen/rpinjamdosen');
 });
+Route::get('/peminjam', function () {
+    return view('admin/datapeminjam');
+});
