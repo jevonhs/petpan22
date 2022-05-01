@@ -42,12 +42,11 @@
 </div>
 </div>
 </div>
-    <div class="col-4">
+   <div class="col-4">
     <button type="submit" class="btn btn-primary btn-block">Masuk</button>
     <a href="/registrasi" class="btn btn-primary btn-block">Registrasi</a>
     </td>
 </div>    
-
     </form>
 </div>
 </div>

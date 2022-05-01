@@ -48,3 +48,11 @@ Route::get('/riwayat', function () {
 Route::get('/peminjam', function () {
     return view('admin/datapeminjam');
 });
+
+Route::get('/laporan', function () {
+    return view('admin/laporancetak');
+});
+
+Route::get('/print', function () {
+    return view('/cetak');
+});
