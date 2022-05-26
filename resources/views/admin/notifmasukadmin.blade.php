@@ -96,14 +96,6 @@
               </p>
             </a>
 </li>
-            <li class="nav-item">
-            <a href="/validasi" class="nav-link">
-              <i class="nav-icon fas fa-copy"></i>
-              <p>
-                Validasi Booking
-              </p>
-            </a>
-</li>
           <li class="nav-item">
             <a href="/buatnotif" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
@@ -159,6 +151,7 @@
                   <tr>
                     <th>Tanggal</th>
                     <th>Pengirim</th>
+                    <th>Nama</th>
                     <th>Jenis Pengajuan</th>
                     <th>Action</th>
             </tr>
@@ -167,16 +160,18 @@
                 <tr>
                     <td>28/03/22</td>
                     <td>72190291</td>
+                    <td>Jevon HS</td>
                     <td>Peminjaman</td>
                     <td><a href="#" class="btn btn-danger">Hapus</a>
-                    <a href="#" class="btn btn-warning">Lihat</a></td>
+                    <a href="/validasi" class="btn btn-warning">Validasi</a></td>
             </tr>
                 <tr>
                     <td>29/03/22</td>
                     <td>72190308</td>
+                    <td>Renaldi</td>
                     <td>Booking</td>
                     <td><a href="#" class="btn btn-danger">Hapus</a>
-                    <a href="#" class="btn btn-warning">Lihat</a></td>
+                    <a href="/validasi" class="btn btn-warning">Validasi</a></td>
 
             </tr>
         </tfoot>

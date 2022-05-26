@@ -95,14 +95,6 @@
             </a>
 </li>
           <li class="nav-item">
-            <a href="/validasi" class="nav-link">
-              <i class="nav-icon fas fa-copy"></i>
-              <p>
-                Validasi Booking
-              </p>
-            </a>
-</li>
-          <li class="nav-item">
             <a href="/buatnotif" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
               <p>
@@ -154,38 +146,23 @@
                 <table id="example2" class="table table-bordered table-hover">
                   <thead>
                   <tr>
-                    <th>Check</th>
                     <th>NIK</th>
+                    <th>Nama</th>
                     <th>Barang dipinjam</th>
                     <th>Batas Waktu</th>
                   </tr>
                   </thead>
                   <tbody>
                   <tr>
-                    <td><div class="icheck-primary">
-                        <input type="checkbox" value="" id="check1">
-                        <label for="check1"></label>
-                      </div></td>
                     <td>72190291</td>
+                    <td>Jevon HS</td>
                     <td>Web Cam Logitech C615</td>
                     <td>30 Maret 2022<td>
             </tr>
             <tr>
-                    <td><div class="icheck-primary">
-                        <input type="checkbox" value="" id="check2">
-                        <label for="check1"></label>
-                      </div></td>
                     <td>72190291</td>
+                    <td>Renaldi</td>
                     <td>Mic Audio-TechnicaBP40</td>
-                    <td>30 Maret 2022<td>
-            </tr>
-            <tr>
-                    <td><div class="icheck-primary">
-                        <input type="checkbox" value="" id="check1">
-                        <label for="check1"></label>
-                      </div></td>
-                    <td>72190291</td>
-                    <td>Modem SmartfrenM25</td>
                     <td>30 Maret 2022<td>
             </tr>
         </tfoot>

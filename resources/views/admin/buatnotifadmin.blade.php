@@ -95,14 +95,6 @@
             </a>
 </li>
           <li class="nav-item">
-            <a href="/validasi" class="nav-link">
-              <i class="nav-icon fas fa-copy"></i>
-              <p>
-                Validasi Booking
-              </p>
-            </a>
-</li>
-          <li class="nav-item">
             <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-copy"></i>
               <p>
@@ -192,14 +184,14 @@
                   <tbody>
                   <tr>
                     <td>72190291</td>
-                    <td>Web Cam Logitech C615</td>
+                    <td>Jevon HS</td>
                     <td>30 Maret 2022<td>
                     <a href="/formnotif" target="_blank">
                     <button class="button">Buat Notif</button></a>
             </tr>
             <tr>
-                    <td>72190291</td>
-                    <td>Mic Audio-TechnicaBP40</td>
+                    <td>72190301</td>
+                    <td>Renaldi</td>
                     <td>30 Maret 2022<td>
                     <a href="/formnotif" target="_blank">
                     <button class="button">Buat Notif</button></a>

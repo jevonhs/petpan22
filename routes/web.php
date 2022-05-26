@@ -60,6 +60,10 @@ Route::get('/laporan', function () {
     return view('admin/laporancetak');
 });
 
+Route::get('/notifmasuk', function () {
+    return view('admin/notifmasukadmin');
+});
+
 Route::get('/print', function () {
     return view('/cetak');
 });

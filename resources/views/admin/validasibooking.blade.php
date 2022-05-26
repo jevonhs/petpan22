@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>UKDW P.P | Notifikasi Pengajuan</title>
+  <title>UKDW P.P | Validasi Pengajuan</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -96,14 +96,6 @@
               </p>
             </a>
 </li>
-            <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-copy"></i>
-              <p>
-                Validasi Booking
-              </p>
-            </a>
-</li>
           <li class="nav-item">
             <a href="/buatnotif" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
@@ -131,3 +123,126 @@
     </div>
 </aside>  
 <!-- /.sidebar-menu -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0">Form Validasi</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item">Validasi</li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <aside>
+    <!-- /.content-header -->
+          <!-- ./col -->
+    <!-- /.content -->
+              <!-- /.card-header -->
+              <!-- form start -->
+            <form>
+            <div class="card-body">
+                  <div class="form-group">
+                    <label for="InputDate">Tanggal Pinjam</label>
+                    <div class="col-sm-3">
+                    <input type="date" class="form-control" id="inputdate">
+            </div>
+                <div class="form-group">
+                    <div class="col-sm-3 float-right">
+                    <label for="InputDate">Peralatan yang akan dipinjam</label>
+                    <select class="form-control">
+                          <option>WebCam</option>
+                          <option>Mic</option>
+                          <option>Headset</option>
+                          <option>Tripod</option>
+                          <option>Modem</option>
+                        </select>
+            </div>
+                  <div class="form-group">
+                    <label for="InputDate">Tanggal Selesai</label>
+                    <div class="col-sm-3">
+                    <input type="date" class="form-control" id="Choosedate" placeholder="masukandate">
+            </div>
+                  <div class="form-group">
+                    <label for="InputNik">Nik</label>
+                    <input type="string" class="form-control" id="Nikanda">
+            </div>
+                  <div class="form-group">
+                    <label for="Inputnama">Nama Dosen</label>
+                    <input type="name" class="form-control" id="name">
+            </div>
+                  <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+                 <div class="form-group">
+                    <label>Keterangan</label>
+                    <textarea class="form-control" rows="3" placeholder="masukan ..."></textarea>
+            </div>
+            </div>
+                <!-- /.card-body -->
+                <div class="card-footer">
+                  <button type="submit" class="btn btn-primary">Validasi</button>
+                </div>
+              
+            </div>
+</form>
+</section>
+  </aside>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <strong>Copyright &copy; Renaldi-Jevon <a href="https://adminlte.io">UKDW P.P</a>.</strong>
+    All rights reserved.
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 3.2.0
+    </div>
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+<!-- Content Wrapper. Contains page content -->
+
+<!-- jQuery -->
+<script src="{{ asset('style/plugins/jquery/jquery.min.js') }}"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="{{ asset('style/plugins/jquery-ui/jquery-ui.min.js') }}"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="{{ ('style/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<!-- ChartJS -->
+<script src="{{ ('style/plugins/chart.js/Chart.min.js') }}"></script>
+<!-- Sparkline -->
+<script src="{{ ('style/plugins/sparklines/sparkline.js') }}"></script>
+<!-- JQVMap -->
+<script src="{{ ('style/plugins/jqvmap/jquery.vmap.min.js') }}"></script>
+<script src="{{ ('style/plugins/jqvmap/maps/jquery.vmap.usa.js') }}"></script>
+<!-- jQuery Knob Chart -->
+<script src="{{ ('plugins/jquery-knob/jquery.knob.min.js') }}"></script>
+<!-- daterangepicker -->
+<script src="{{ ('plugins/moment/moment.min.js') }}"></script>
+<script src="{{ ('plugins/daterangepicker/daterangepicker.js') }}"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="{{ ('style/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') }}"></script>
+<!-- Summernote -->
+<script src="{{ ('style/plugins/summernote/summernote-bs4.min.js') }}"></script>
+<!-- overlayScrollbars -->
+<script src="{{ ('style/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js') }}"></script>
+<!-- AdminLTE App -->
+<script src="{{ ('style/dist/js/adminlte.js') }}"></script>
+</body>
+</html>
