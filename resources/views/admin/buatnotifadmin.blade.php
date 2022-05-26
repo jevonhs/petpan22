@@ -95,6 +95,14 @@
             </a>
 </li>
           <li class="nav-item">
+            <a href="/validasi" class="nav-link">
+              <i class="nav-icon fas fa-copy"></i>
+              <p>
+                Validasi Booking
+              </p>
+            </a>
+</li>
+          <li class="nav-item">
             <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-copy"></i>
               <p>
@@ -129,7 +137,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Notifikasi Pengembalian</h1>
+            <h1 class="m-0">Batas Peminjaman Dosen</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -164,48 +172,46 @@
     <!-- /.content -->
     <div class="content-wrapper">
     <!-- From Peminjaman Main content -->
-    <section class="content">
-      <div class="container-fluid">
-        <div class="row">
-          <!-- left column -->
-          <div class="col-md-12">
-            <!-- general form elements -->
-            <div class="card card-primary">
-              <div class="card-header">
-                <h3 class="card-title">Buat Notifikasi</h3>
-              </div>
+    <div class="col-md-12">
+          <div class="card card-primary card-outline">
+            <div class="card-header">
+              <h3 class="card-title">Peminjam</h3>
+              <!-- /.card-tools -->
+            </div>
               <!-- /.card-header -->
-              <!-- form start -->
-            
-            <div class="card-body">
-                  <div class="form-group">
-                    <label for="InputDate">Tanggal</label>
-                    <div class="col-sm-3">
-                    <input type="date" class="form-control" id="inputdate">
+              <div class="card-body">
+                <table id="example2" class="table table-bordered table-hover">
+                  <thead>
+                  <tr>
+                    <th>NIK</th>
+                    <th>Nama</th>
+                    <th>Batas Waktu</th>
+                    <th>Buat Notif</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td>72190291</td>
+                    <td>Web Cam Logitech C615</td>
+                    <td>30 Maret 2022<td>
+                    <a href="/formnotif" target="_blank">
+                    <button class="button">Buat Notif</button></a>
+            </tr>
+            <tr>
+                    <td>72190291</td>
+                    <td>Mic Audio-TechnicaBP40</td>
+                    <td>30 Maret 2022<td>
+                    <a href="/formnotif" target="_blank">
+                    <button class="button">Buat Notif</button></a>
+            </tr>
+        </tfoot>
+    </table>
+    </div>    
 </div>
-            <div class="form-group">
-                    <label for="InputNik">Kepada</label>
-                    <input type="string" class="form-control" id="Nikanda">
+    </div>    
+</div>    
 </div>
-                <div class="form-group">
-                    <label for="InputDate">Jenis Surat</label>
-                    <div class="col-sm-3">
-                    <select class="form-control">
-                          <option>Pengembalian</option>
-                          <option>Jatuh Tempo</option>
-                        </select>
-</div>
-                 <div class="form-group">
-                    <label>Keterangan</label>
-                    <textarea class="form-control" rows="3" placeholder="masukan ..."></textarea>
-            </div>
-            </div>
-                <!-- /.card-body -->
-                <div class="card-footer">
-                  <button type="submit" class="btn btn-primary float-right" >Kirim</button>
-                </div>
 </section>
-</div></div>
   </aside>
 <!-- /.Bagian Copyright content-wrapper -->
 <footer class="main-footer">

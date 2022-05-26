@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>UKDW P.P | Data Barang</title>
+  <title>UKDW P.P | Data Peminjam</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -91,6 +91,14 @@
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Data Barang
+              </p>
+            </a>
+</li>
+          <li class="nav-item">
+            <a href="/validasi" class="nav-link">
+              <i class="nav-icon fas fa-copy"></i>
+              <p>
+                Validasi Booking
               </p>
             </a>
 </li>

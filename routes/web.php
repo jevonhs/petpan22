@@ -35,11 +35,18 @@ Route::get('/buatnotif', function () {
     return view('admin/buatnotifadmin');
 });
 
+Route::get('/validasi', function () {
+    return view('admin/validasibooking');
+});
+
 Route::get('/barang', function () {
     return view('dosen/databarangdosen');
 });
 Route::get('/barang', function () {
     return view('admin/databarangadmin');
+});
+Route::get('/formnotif', function () {
+    return view('admin/formnotifadmin');
 });
 
 Route::get('/riwayat', function () {

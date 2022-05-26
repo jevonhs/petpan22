@@ -99,6 +99,14 @@
             </a>
 </li>
           <li class="nav-item">
+            <a href="/validasi" class="nav-link">
+              <i class="nav-icon fas fa-copy"></i>
+              <p>
+                Validasi Booking
+              </p>
+            </a>
+</li>
+          <li class="nav-item">
             <a href="/buatnotif" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
               <p>
