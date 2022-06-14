@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>UKDW P.P | Data Barang</title>
+  <title>UKDW P.P | Tambah Barang</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -71,9 +71,7 @@
         <div class="info">
           <a href="#" class="d-block">Renaldi Soeryadi</a>
         </div>
-      </div>
-
-<!-- Sidebar Menu -->
+      </div><!-- Sidebar Menu -->
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
 <!-- Add icons to the links using the .nav-icon class
@@ -119,104 +117,94 @@
             </a>
 </li>
     </div>
-    </aside>
+<!-- /.sidebar-menu -->
 <!-- /.sidebar -->
-<!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
-<!-- Content Header (Page header) -->
-    <section class="content-header">
+   <!-- /.sidebar -->
+    <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
-          <div class="col-sm-12">
-            <h1 style="text-align:center;">Data Barang</h1>
-          </div>
+          <div class="col-sm-6">
+            <h1 class="m-0">Tambah Barang</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item">Dashboard</li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+          <!-- ./col -->
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+                </div>
+                <!-- /. tools -->
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body pt-0">
+                <!--The calendar -->
+                <div id="calendar" style="width: 100%"></div>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </section>
+          <!-- right col -->
         </div>
-      </div>
-<!-- /.container-fluid -->
+        <!-- /.row (main row) -->
+      </div><!-- /.container-fluid -->
     </section>
-<!-- Main content -->
+    <!-- /.content -->
+    <div class="content-wrapper">
+    <!-- From Peminjaman Main content -->
     <section class="content">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12">
-            <div class="card">
+          <!-- left column -->
+          <div class="col-md-12">
+            <!-- general form elements -->
+            <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Data Barang</h3>
+                <h3 class="card-title">Tambah Barang</h3>
               </div>
               <!-- /.card-header -->
-              <div class="card-body">
-                <table id="example2" class="table table-bordered table-hover">
-                  <thead>
-                  <tr>
-                    <th>ID_Barang</th>
-                    <th>Nama Barang</th>
-                    <th>Stok</th>
-                    <th>Status</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                  <tr>
-                    <td>1</td>
-                    <td>Web Cam Logitech C615</td>
-                    <td>3</td>
-                    <td>Tersedia<td>
-            </tr>
-                  <tr>
-                    <td>1.1</td>
-                    <td>Web Cam Logitech C310 </td>
-                    <td>5</td>
-                    <td>Tersedia</td>
-            </tr>
-                  <tr>
-                    <td>2</td>
-                    <td>Mic Audio-Technica BP40</td>
-                    <td>3</td>
-                    <td>Tersedia</td>
-            </tr>
-                  <tr>
-                    <td>2.1</td>
-                    <td>Mic Rode PodMic</td>
-                    <td>3</td>
-                    <td>Tersedia</td>
-            </tr>
-                  <tr>
-                    <td>2.2</td>
-                    <td>Mic Neuman BCM705</td>
-                    <td>3</td>
-                    <td>Tersedia</td>
-            </tr>
-                  <tr>
-                    <td>3</td>
-                    <td>Modem Smartfren M2S</td>
-                    <td>5</td>
-                    <td>Tersedia</td>
-            </tr>
-                  <tr>
-                    <td>3.1</td>
-                    <td>Modem Smartfren M2Y</td>
-                    <td>3</td>
-                    <td>Tersedia</td>
-            </tr>
-                  <tr>
-                    <td>3.2</td>
-                    <td>Modem Huawei E5373s</td>
-                    <td>3</td>
-                    <td>Tersedia</td>
-            </tr>
-            <div class="card-footer">
-                  <a href="/tambahbarang" class="btn btn-primary">Tambah</a></td>
-                  <button type="button" class="btn btn-warning" >Edit</button>
-                </div>
-        </tfoot>
-    </table>
-    </div>    
+              <!-- form start -->
+            
+            <div class="card-body">
+                  <div class="form-group">
+                    <label for="InputID">ID_Barang</label>
+                    <div class="col-sm-3">
+                    <input type="string" class="form-control" id="inputID">
 </div>
-    </div>    
-</div>    
-    </div>
-</div> 
-
-</aside> 
+            <div class="form-group">
+                    <label for="inputstok">Nama Barang</label>
+                    <input type="string" class="form-control" id="NamaBarang">
+</div>
+                <div class="form-group">
+                    <label for="Inputstok">Stok</label>
+                    <input type="string" class="form-control" id="Stok Barang">
+                    
+</div>
+                 <div class="form-group">
+                    <label>Status</label>
+                    <select class="form-control">
+                          <option>Tersedia</option>
+                          <option>Dipinjam</option>
+                        </select>
+            </div>
+            </div>
+                <!-- /.card-body -->
+                <div class="card-footer">
+                  <button type="submit" class="btn btn-primary float-right" > Tambahkan</button>
+                </div>
+</section>
+</div></div>
+  </aside>
 <!-- /.Bagian Copyright content-wrapper -->
 <footer class="main-footer">
     <strong>Copyright &copy; Renaldi-Jevon <a href="https://adminlte.io">UKDW P.P</a>.</strong>
@@ -267,3 +255,4 @@
 <script src="{{ ('style/dist/js/adminlte.js') }}"></script>
 </body>
 </html>
+

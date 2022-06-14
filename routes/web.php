@@ -67,3 +67,7 @@ Route::get('/notifmasuk', function () {
 Route::get('/print', function () {
     return view('/cetak');
 });
+
+Route::get('/tambahbarang', function () {
+    return view('admin/tambahbarangadmin');
+});
